@@ -16,3 +16,19 @@
   .section-contact h5 {
     margin-bottom: 30px;
   }  
+  .slider{
+    background-image: url('./resort1.jpg');
+    background-size: 100% 100%;
+    animation:  slider 10s infinite linear;
+  }
+  @keyframes slider{
+    0%{
+      background-image: url('./resort1.jpg');
+    }
+    50%{
+      background-image: url('./resort2.jpg');
+    }
+    100%{
+      background-image: url('./resort3.jpg');
+    }
+  }
